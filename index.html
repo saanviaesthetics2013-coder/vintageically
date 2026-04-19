@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>NEO ARCHIVE</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- Falling leaves -->
+<div id="leaves"></div>
+
+<div id="app">
+
+  <div id="sidebar">
+    <h1>ARCHIVE</h1>
+    <div onclick="loadPage('home')">HOME</div>
+    <div onclick="loadPage('ai')">AI</div>
+    <div onclick="loadPage('game')">GAME</div>
+    <div onclick="loadPage('tools')">TOOLS</div>
+  </div>
+
+  <div id="content"></div>
+
+</div>
+
+<script src="script.js"></script>
+<script src="modules/ai.js"></script>
+<script src="modules/game.js"></script>
+<script src="modules/tools.js"></script>
+
+</body>
+</html>
